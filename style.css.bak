@@ -1,0 +1,121 @@
+#menu
+{
+	word-spacing:10px;
+	margin-top:5;
+	position:fixed;
+	height:10;
+	width:500;
+	display:inline-block;
+	
+	
+}
+body
+{
+	
+	margin:0;
+	
+	
+}
+
+#models
+{
+	margin-top:70;
+	background-image:url("models.png");
+	background-repeat:no-repeat;
+	background-size:100% 100% ;
+	background-attachment:fixed;
+	height:100%;
+	width:100%;
+	margin-top:0;
+	
+	
+	
+}
+
+
+#model3
+{
+	background-image:url("model3.png");
+	background-repeat:no-repeat;
+	background-size:100% 100% ;
+	background-attachment:fixed;
+	height:100%;
+	width:100%;
+	display:inline-block;
+	padding:0;
+	
+
+}
+
+
+#modely
+{
+	background-image:url("modely.png");
+	background-repeat:no-repeat;
+	background-size:100% 100% ;
+	background-attachment:fixed;
+	height:100%;
+	width:100%;
+	display:inline-block;
+	padding:0;
+	
+
+}
+
+
+#modelx
+{
+	background-image:url("modelx.png");
+	background-repeat:no-repeat;
+	background-size:100% 100% ;
+	background-attachment:fixed;
+	height:100%;
+	width:100%;
+	display:inline-block;
+	padding:0;
+	
+
+}
+
+
+
+#sr
+{
+	background-image:url("solarroof.png");
+	background-repeat:no-repeat;
+	background-size:100% 100% ;
+	background-attachment:fixed;
+	height:100%;
+	width:100%;
+	display:inline-block;
+	padding:0;
+	
+
+}
+
+#sp
+{
+	background-image:url("panel.png");
+	background-repeat:no-repeat;
+	background-size:100% 100% ;
+	background-attachment:fixed;
+	height:100%;
+	width:100%;
+	display:inline-block;
+	padding:0;
+	
+
+}
+
+
+a 
+{
+	text-decoration:none;
+	
+}
+
+a:hover
+{
+	background-size:rgb(187, 189, 191);
+	
+}
