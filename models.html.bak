@@ -1,0 +1,176 @@
+<html>
+
+<body>
+<link rel="stylesheet" href="models_style.css">
+
+
+<div id ="models">
+
+<h1 > model S </h1>
+
+<div id="basic">
+
+<table style="width:70%">
+<tr class="first">
+<th><h1>396mi</h1></th>
+<th><h1> 1.99s</h1> </th>
+<th><h1>200mph</h1> </th>
+<th><h1>1,020hp</h1></th>
+<th rowspan="2"><button id="btn">Order Now</button></th>
+</tr>
+
+<tr class="first">
+<td>Range(EPA est.) </td>
+<td> 0-60 mph*</td>
+<td>  Top Speed† </td>
+<td>Peak Power</td>
+
+</tr>
+</table>
+
+</div>
+</div>
+
+<div id="interior">
+<h1 style="color:white;">Interior of the Future</h1>
+</div>
+
+
+
+
+  
+
+
+
+
+<div class="tcl-video">
+  <video class="tcl-asset tcl-video__asset lozad tcl-objectfit-position tcl-objectfit-position--center" preload="auto" playsinline data-autoplay-desktop="true" data-autoplay-portrait="true" data-autoplay-mobile="true" data-play-on-hover="false" muted data-src-desktop="https://tesla-cdn.thron.com/delivery/public/video/tesla/a45a269f-1acf-4022-aa69-0d25518350e2/bvlatuR/WEBHD/MS-Interior-Carousel-5-Gaming-Desktop" data-src-portrait="https://tesla-cdn.thron.com/delivery/public/video/tesla/a45a269f-1acf-4022-aa69-0d25518350e2/bvlatuR/WEBHD/MS-Interior-Carousel-5-Gaming-Desktop" data-src-mobile="https://tesla-cdn.thron.com/delivery/public/video/tesla/66dae454-284f-41e6-b730-1773e87126f0/bvlatuR/WEBHD/MS-Interior-Carousel-5-Gaming-Mobile" data-src="https://tesla-cdn.thron.com/delivery/public/video/tesla/a45a269f-1acf-4022-aa69-0d25518350e2/bvlatuR/WEBHD/MS-Interior-Carousel-5-Gaming-Desktop" data-object-fit="true" ></video>
+  <noscript>
+    <video class="tcl-asset tcl-video__asset lozad tcl-objectfit-position tcl-objectfit-position--center" preload="auto" playsinline data-autoplay-desktop="true" data-autoplay-portrait="true" data-autoplay-mobile="true" data-play-on-hover="false" muted src="https://tesla-cdn.thron.com/delivery/public/video/tesla/a45a269f-1acf-4022-aa69-0d25518350e2/bvlatuR/WEBHD/MS-Interior-Carousel-5-Gaming-Desktop"></video>
+  </noscript>
+        <button class="tcl-video__replay">
+      <svg class="tcl-video__replay-icon tcl-icon tcl-icon--round tds-icon tds-icon-play" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+        <use xlink:href="#tds-icon-play"></use>
+      </svg>
+      <span>Replay</span>
+    </button>
+    </div>
+
+</section>
+
+  </section>
+
+
+              
+<section class="tcl-carousel__controls">
+  <button type="button" class="tcl-carousel__control tcl-carousel__control-previous tds-tab--prev">
+    <svg class="tds-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+      <path d="M57.1 75.4l7.1-7.1L45.9 50l18.3-18.3-7.1-7.1L31.8 50"></path>
+    </svg>
+    <span class="tds--is_visually_hidden">Previous slide</span>
+  </button>
+  <button type="button" class="tcl-carousel__control tcl-carousel__control-next tds-tab--next">
+    <svg class="tds-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+      <polyline points="42.9 24.6 35.8 31.7 54.1 50 35.8 68.3 42.9 75.4 68.2 50"></polyline>
+    </svg>
+    <span class="tds--is_visually_hidden">Next slide</span>
+  </button>
+</section>
+          </div>
+
+          
+<section class="tcl-carousel__navigation tcl-carousel__navigation--dotted tds-flex">
+        <div>
+    <nav class="tcl-carousel__navigation-indicators tds-tab-list tcl-carousel__navigation-indicators--before" role="tablist" aria-label="tesla carousel 3924">
+      <div class="tds-tab-list-animated-backdrop tcl-carousel__navigation-backdrop"></div>
+              
+<section data-target="#tcl-carousel-slide--tesla-carousel-3924-0-panel" role="tab" aria-controls="tcl-carousel-slide--tesla-carousel-3924-0-panel" data-gtm-event="widget-interaction" data-gtm-widget-name="" data-gtm-interaction="" aria-selected="false" id="tcl-carousel-slide--tesla-carousel-3924-0" class="tds-tab tds-flex-item tcl-carousel__navigation-indicator">
+  Cinematic Experience
+</section>
+              
+<section data-target="#tcl-carousel-slide--tesla-carousel-3924-1-panel" role="tab" aria-controls="tcl-carousel-slide--tesla-carousel-3924-1-panel" data-gtm-event="widget-interaction" data-gtm-widget-name="" data-gtm-interaction="" aria-selected="false" id="tcl-carousel-slide--tesla-carousel-3924-1" class="tds-tab tds-flex-item tcl-carousel__navigation-indicator">
+  Yoke Steering
+</section>
+              
+<section data-target="#tcl-carousel-slide--tesla-carousel-3924-2-panel" role="tab" aria-controls="tcl-carousel-slide--tesla-carousel-3924-2-panel" data-gtm-event="widget-interaction" data-gtm-widget-name="" data-gtm-interaction="" aria-selected="false" id="tcl-carousel-slide--tesla-carousel-3924-2" class="tds-tab tds-flex-item tcl-carousel__navigation-indicator">
+  Perfect Environment
+</section>
+              
+<section data-target="#tcl-carousel-slide--tesla-carousel-3924-3-panel" role="tab" aria-controls="tcl-carousel-slide--tesla-carousel-3924-3-panel" data-gtm-event="widget-interaction" data-gtm-widget-name="" data-gtm-interaction="" aria-selected="false" id="tcl-carousel-slide--tesla-carousel-3924-3" class="tds-tab tds-flex-item tcl-carousel__navigation-indicator">
+  Redesigned Second Row
+</section>
+              
+<section data-target="#tcl-carousel-slide--tesla-carousel-3924-4-panel" role="tab" aria-controls="tcl-carousel-slide--tesla-carousel-3924-4-panel" data-gtm-event="widget-interaction" data-gtm-widget-name="" data-gtm-interaction="" aria-selected="false" id="tcl-carousel-slide--tesla-carousel-3924-4" class="tds-tab tds-flex-item tcl-carousel__navigation-indicator">
+  Console-Grade Gaming
+</section>
+          </nav>
+  </div>
+
+  
+      <div class="tcl-carousel__navigation-items tcl-carousel__navigation-items--after tds-flex">
+                
+<section aria-labelledby="tcl-carousel-slide--tesla-carousel-3924-0" id="tcl-carousel-slide--tesla-carousel-3924-0-navigation-item" class="tcl-carousel__navigation-item">
+  
+<section class="tcl-carousel__navigation-content">
+      <span class="tds-text--h3 tcl-carousel__navigation-content-heading" role="heading">Cinematic Experience</span>
+        <p class="tcl-carousel__navigation-content-copy">A 17” touchscreen offers 2200 x 1300 resolution, true colors and exceptional responsiveness for gaming, movies and more.</p>
+  </section>
+
+</section>
+          
+<section aria-labelledby="tcl-carousel-slide--tesla-carousel-3924-1" id="tcl-carousel-slide--tesla-carousel-3924-1-navigation-item" class="tcl-carousel__navigation-item">
+  
+<section class="tcl-carousel__navigation-content">
+      <span class="tds-text--h3 tcl-carousel__navigation-content-heading" role="heading">Yoke Steering</span>
+        <p class="tcl-carousel__navigation-content-copy">A bold new approach gives you a true connection to Model S, offering better steering feel and unobstructed views of your dash and the road ahead. Tap the brake and Model S automatically selects the correct direction to start your trip.</p>
+  </section>
+
+</section>
+          
+<section aria-labelledby="tcl-carousel-slide--tesla-carousel-3924-2" id="tcl-carousel-slide--tesla-carousel-3924-2-navigation-item" class="tcl-carousel__navigation-item">
+  
+<section class="tcl-carousel__navigation-content">
+      <span class="tds-text--h3 tcl-carousel__navigation-content-heading" role="heading">Perfect Environment</span>
+        <p class="tcl-carousel__navigation-content-copy">Air vents are hidden throughout the cabin, while tri-zone temperature controls, ventilated seats and HEPA filtration deliver the perfect environment.</p>
+  </section>
+
+</section>
+          
+<section aria-labelledby="tcl-carousel-slide--tesla-carousel-3924-3" id="tcl-carousel-slide--tesla-carousel-3924-3-navigation-item" class="tcl-carousel__navigation-item">
+  
+<section class="tcl-carousel__navigation-content">
+      <span class="tds-text--h3 tcl-carousel__navigation-content-heading" role="heading">Redesigned Second Row</span>
+        <p class="tcl-carousel__navigation-content-copy">Seating for three adults, with extra legroom, headroom and a stowable armrest with integrated storage and wireless charging.</p>
+  </section>
+
+</section>
+          
+<section aria-labelledby="tcl-carousel-slide--tesla-carousel-3924-4" id="tcl-carousel-slide--tesla-carousel-3924-4-navigation-item" class="tcl-carousel__navigation-item">
+  
+<section class="tcl-carousel__navigation-content">
+      <span class="tds-text--h3 tcl-carousel__navigation-content-heading" role="heading">Console-Grade Gaming</span>
+        <p class="tcl-carousel__navigation-content-copy">Up to 10 teraflops of processing power unlock in-car gaming on-par with today’s newest consoles. Play from any seat with wireless controller and headset compatibility.</p>
+  </section>
+
+</section>
+    
+    </div>
+  
+  </section>
+
+    
+  </div>
+</section>
+
+  </div>
+
+        </div>
+            </div>
+    </section>
+  </div>
+  
+  
+  
+</body>
+
+</html>
