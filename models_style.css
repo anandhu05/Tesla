@@ -24,7 +24,7 @@ text-align:center;
 
 body
 {
-	
+	background:black;
 	margin:0;
 	
 	
@@ -76,3 +76,105 @@ body
 	
 }
 
+.mcolor
+{
+	color:white;
+	
+}
+
+#btn1
+{
+	color:black;
+	border-radius:20px;
+	height:45;
+	width:190;
+	background-color:transparent;
+	font-weight:bold;
+	border:3px solid black;
+	
+}
+
+#electric
+{
+	background-color:rgb(232, 230, 230);
+	text-align:center;
+	height:110%;
+	width:100%;
+	margin-top:0;
+	padding:0;
+	display:inline-block;
+	
+	
+}
+
+
+#range
+{
+	background-color:white;
+	text-align:center;
+	height:110%;
+	width:100%;
+	margin-top:0;
+	padding:0;
+	display:inline-block;
+}
+
+#map
+{
+	background-color:white;
+	text-align:center;
+	height:110%;
+	width:100%;
+	margin-top:0;
+	padding:0;
+	display:inline-block;
+}
+
+
+
+#safety
+{
+	background-color:white;
+	
+	height:90%;
+	width:100%;
+	margin-top:0;
+	padding:0;
+	display:inline-block;
+}
+
+
+
+#sensor
+{
+	background-image:url("model_s.gif");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	height:500;
+	width:100%;
+	margin-top:0;
+	padding:0;
+	display:inline-block;
+}
+
+#auto
+{
+	background-color:white;
+	text-align:center;
+	height:130%;
+	width:100%;
+	margin-top:0;
+	padding:0;
+	display:inline-block;
+}
+
+#order
+{
+	background-color:white;
+	
+	height:90%;
+	width:100%;
+	margin-top:0;
+	padding:0;
+	display:inline-block;
+}
