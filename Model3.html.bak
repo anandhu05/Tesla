@@ -1,0 +1,218 @@
+<html>
+<head>
+<script>
+
+function slide(a,n)
+{
+	document.getElementsByClassName("div_label")[n].value=a;
+}
+
+function slideout(a,n)
+{
+	document.getElementsByClassName("div_label")[n].value=a;
+}
+
+function bgcolor(c,bn)
+{
+var pb=bn-1;
+if(bn>pb)
+{
+document.getElementsByClassName("slide_btn")[bn].style.background=c;
+document.getElementsByClassName("slide_btn")[pb].style.background="transparent";
+}	
+else
+{
+pb=bn+1;
+document.getElementsByClassName("slide_btn")[bn].style.background="transparent";
+document.getElementsByClassName("slide_btn")[pb].style.background=c;
+}
+}
+</script>
+</head>
+
+<body>
+<link rel="stylesheet" href="model3_style.css">
+
+<div id="model3">
+<br><br><br><br>
+
+<h1>Model 3</h1>
+
+<div style="background-color:transparent;height:50%;width:25%;text-align:left;margin-left:10;">
+
+<button class="slide_btn" onmouseover="slide('MODEL 3',0)" onmouseout="slideout('',0)"></button>&nbsp&nbsp&nbsp&nbsp<input type="text" class="div_label"><br>
+<button class="slide_btn" onmouseover="slide('SAFETY',1)" onmouseout="slideout('',1)" onclick="bgcolor('white',1)"></button>&nbsp&nbsp&nbsp&nbsp<input type="text" class="div_label"><br>
+<button class="slide_btn" onmouseover="slide('PERFORMANCE',2)" onmouseout="slideout('',2)" onclick="bgcolor('white',2)"></button>&nbsp&nbsp&nbsp&nbsp<input type="text" class="div_label"><br>
+<button class="slide_btn" onmouseover="slide('ALL-WHEEL DRIVE',3)" onmouseout="slideout('',3)" onclick="bgcolor('white',3)"></button>&nbsp&nbsp&nbsp&nbsp<input type="text" class="div_label"><br>
+<button class="slide_btn" onmouseover="slide('RANGE ',4)" onmouseout="slideout('',4)" onclick="bgcolor('white',4)"></button>&nbsp&nbsp&nbsp&nbsp<input type="text" class="div_label"><br>
+<button class="slide_btn" onmouseover="slide('AUTOPIOLET',5)" onmouseout="slideout('',5)" onclick="bgcolor('white',5)"></button>&nbsp&nbsp&nbsp&nbsp<input type="text" class="div_label"><br>
+<button class="slide_btn" onmouseover="slide('INTERIOR',6)" onmouseout="slideout('',6)" onclick="bgcolor('white',6)"></button>&nbsp&nbsp&nbsp&nbsp<input type="text" class="div_label"><br>
+</div>
+
+<div id="basic">
+
+<table style="width:70%">
+<tr class="first">
+<th><h1>3.1s</h1></th>
+<th><h1> 358 mi</h1> </th>
+<th><h1>AWD</h1> </th>
+
+<th rowspan="2"><button id="btn">Order Now</button></th>
+</tr>
+
+<tr class="first">
+<td> 0-60 mph*</td>
+<td>  Range (EPA est.) </td>
+<td>Dual Motor</td>
+
+</tr>
+</table>
+
+</div>
+</div>
+
+<div id="safety">
+<div style="width:70%;height:100%;margin-top:20px;text-align:center;float:left">
+<img src="safety.png" height=600 width=800 style="margin-top:100;">
+</div>
+
+<div style="width:30%;height:100%;margin-top:20px;position:absolute;left:70%;text-align:left;float:right">
+<h4>Safety</h4>
+<h1><b>Built for Safety</b><h1>
+
+<h4>Safety is the most important part of every <br>Tesla. We design our vehicles to exceed <br>safety standards.</h4>
+
+<h4><b>5-Star Rating</b></h4>
+<h4>Model 3 achieved NHTSA 5-star safety <br>ratings in every category and subcategory.</h4>
+
+<h4><b>Top Safety Pick+</b></h4>
+<h4>Model 3 received the IIHS Top Safety Pick+ <br>award, with top ratings in all crashworthiness <br>and front crash prevention categories.</h4>
+
+<br><br><br>
+<button id="plus_btn">+</button><label>Learn More </label>&nbsp&nbsp<button id="btn1">Order Now</button>
+</div>
+</div>
+
+<div id="performance">
+
+<table style="width:70%;margin-left:200;margin-top:500">
+<tr class="first">
+<th><h1>3.1 s</h1></th>
+<th><h1> </h1> </th>
+<th><h1>162mph</h1> </th>
+<th><h1>AWD</h1></th>
+
+</tr>
+
+<tr class="first">
+<td>Quickest acceleration—from zero to 60<br> mph* in as little as 3.1 seconds </td>
+<td> </td>
+<td>  Improved handling and aerodynamics<br> allow for a top speed of 162 mph</td>
+<td>Dual Motor All-Wheel Drive instantly <br>controls traction and torque, in all weather <br>conditions</td>
+
+</tr>
+</table>
+
+<div id="performance1">
+<h3>Performance</h3>
+<h1>Quickest Acceleration</h1>
+<br>
+<button id="plus_btn">+</button><label>Learn More </label>&nbsp&nbsp<button id="btn1">Order Now</button>
+</div>
+
+<div id="performance2">
+<h4>Model 3 comes with the option of dual motor all-wheel drive, 20” Überturbine Wheels and <br>Performance Brakes for 
+total control in all weather conditions. A carbon fiber spoiler<br> improves stability at high speeds,
+ all allowing Model 3 to accelerate from 0-60 mph* in as <br>little as 3.1 seconds.</h4>
+</div>
+</div>
+
+<div id="drive">
+<table style="width:70%;margin-left:200;margin-top:500">
+<tr class="first">
+<th><h1>2</h1></th>
+<th><h1> </h1> </th>
+<th><h1>10 ms</h1> </th>
+<th><img src="cloud.png" height=35 width=40></th>
+
+</tr>
+
+<tr class="first">
+<td>Independent motors digitally control<br> torque to the front and rear wheels </td>
+<td> </td>
+<td> Dual motors respond to changing<br> conditions in as little as 10 milliseconds</td>
+<td>Unparalleled traction and control, in all <br>weather conditions <br>conditions</td>
+
+</tr>
+</table>
+
+<div id="drive1">
+<h3>Performance</h3>
+<h1>Quickest Acceleration</h1>
+<br>
+<button id="plus_btn">+</button><label>Learn More </label>&nbsp&nbsp<button id="btn1">Order Now</button>
+</div>
+
+<div id="drive2">
+<h4>Tesla All-Wheel Drive has two independent motors for improved redundancy, each with<br> only one moving part for minimal maintenance and maximum durability. 
+Unlike traditional<br> all-wheel drive systems, they digitally control torque to the front and rear wheels for far<br> better handling and traction control.</h4>
+</div>
+</div>
+
+<div id="range">
+
+<div id="range1">
+
+</div>
+<div id="range2">
+<h4 style="padding:10;">Range</h4>
+<h2 style="padding:10;">Go Anywhere</h2>
+<p style="padding:10;">
+Model 3 is fully electric, so you never need to<br> visit a gas station again. If you charge<br> overnight at home,
+ you can wake up to a full<br> battery every morning. And when you’re on <br>the road, it’s easy to plug in along the 
+ way—<br>at any public station or with the Tesla<br> charging network. 
+We currently have over<br> 30,000 Superchargers worldwide, with six <br>new locations opening every week.<p>
+<img src="model-3-range-map.png" height=370 width=330 style="padding:20">
+<br>
+<br>
+<button id="plus_btn">+</button><label>Learn More </label>&nbsp&nbsp<button id="btn1">Order Now</button>
+</div>
+
+<div id="sensor">
+<h2>360°</h2>
+<h4>Rear, side and forward-facing cameras provide maximum visibility</h4>
+<br><br><br>
+<h2>250m</h2>
+<h4>Powerful visual processing at up to 250 meters of range<h4>
+<br><br><br>
+<h4><input type="text" value="12" style="border-radius: 50%;width: 44px;height: 44px;padding: 1px;
+        background: #fff;
+        border: 3px solid #000;
+       
+        text-align: center;
+        font: 32px Arial, sans-serif;">Ultrasonic Sensors</h4>
+
+<h4>Detects nearby cars, helps prevent potential collisions and assists with parking</h4>
+
+<div id="auto">
+
+<table style="margin-left:180;color:black;">
+<tr>
+
+<td><h3>Autopilot</h3>
+<h2>Future of Driving</h2>
+<button id="btn1">Order Now</button>
+</td>
+
+<td style="text-align:left"><p style="margin-left:300;font-size:16px;font-style:Arial">
+Autopilot enables your car to steer, accelerate and brake automatically within its lane<br> under your active supervision, 
+assisting with the most burdensome parts of driving. With<br> over-the-air software updates, the latest enhancements are available instantly.</p>
+</td>
+</tr>
+</table>
+
+</div>
+
+</body>
+</html>
+

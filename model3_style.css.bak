@@ -1,0 +1,247 @@
+body
+{
+	margin:0;
+}
+
+
+#model3
+{
+	text-align:center;
+	color:white;
+height:110%;
+width:100%;
+background-image:url("lhd-performance-hero-desktop.jfif");
+background-repeat:no-repeat;
+background-size:100% 100%;
+
+}
+
+#basic
+{
+	line-height:0;
+	margin-top:150;
+	margin-left:350;
+}
+
+#btn
+{
+	color:white;
+	border-radius:20px;
+	height:45;
+	width:170;
+	background-color:transparent;
+	font-weight:bold;
+	border:3px solid white;
+	
+}
+
+#btn:hover
+{
+	background-color:white;
+	color:black;
+}
+
+.first
+{
+	
+	
+	text-align:center;
+	color:white;
+	
+}
+
+.div_label
+{
+	background-color:transparent;
+	border:none;
+	pointer-events:none;
+}
+
+.slide_btn
+{
+	background-color:transparent;
+	position:fixed;
+	height:20px;
+	width:0.5px;
+}
+
+
+
+#saftey
+{
+	background-color:white;
+}
+
+#saftey1
+{
+	width:70%;
+	height:100%;
+	margin-top:20px;
+	text-align:center;
+	float:left;
+}
+
+#btn1
+{
+	color:black;
+	border-radius:20px;
+	height:45;
+	width:190;
+	background-color:transparent;
+	font-weight:bold;
+	border:3px solid black;
+	
+}
+
+#plus_btn
+{
+	border-radius:100px;
+	height:40;
+	width:39;
+	color:black;
+	background-color:transparent;
+	font-weight:bold;
+	border:3px solid black;
+}
+
+#btn1:hover
+{
+	background-color:black;
+	color:white;
+}
+
+#plus_btn:hover
+{
+	background-color:black;
+	color:white;
+}
+
+#performance
+{
+	background-image:url("lhd-performance-hero-desktop (1).jfif");
+	background-repeat:no-repeat;
+	background-size:100% 100% ;
+	height:100%;
+	width:100%;
+	margin-top:0;
+	padding:0;
+	display:inline-block;
+}
+
+#performance1
+{
+	height:30%;
+	width:30%;
+	margin-top:170;
+	margin-left:10%;
+	
+	float:left;
+	
+}
+
+#performance2
+{
+	height:30%;
+	width:60%;
+	
+	margin-top:210;
+	text-align:center;
+	
+	float:right;
+}
+
+
+#drive
+{
+	background-image:url("lhd-awd-hero-desktop.jfif");
+	background-repeat:no-repeat;
+	background-size:100% 100% ;
+	height:100%;
+	width:100%;
+	margin-top:0;
+	padding:0;
+	display:inline-block;
+}
+
+#drive1
+{
+	height:30%;
+	width:30%;
+	margin-top:170;
+	margin-left:10%;
+	
+	float:left;
+	
+}
+
+#drive2
+{
+	height:30%;
+	width:60%;
+	
+	margin-top:210;
+	text-align:center;
+	
+	float:right;
+}
+
+
+#range
+{
+	
+	height:100%;
+	width:100%;
+	margin-top:0;
+	padding:0;
+	display:inline-block;
+}
+
+#range1
+{
+	background-image:url("range.png");
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	height:115%;
+	width:76%;
+	margin-top:300;
+	
+	
+	float:left;
+	
+}
+
+#range2
+{
+	height:100%;
+	width:24%;
+	
+	margin-top:300;
+	text-align:left;
+	
+	float:right;
+}
+
+
+#sensor
+{
+	background-image:url("model_s.gif");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	height:500;
+	width:100%;
+	margin-top:0;
+	padding:0;
+	display:inline-block;
+}
+
+
+#auto
+{
+	background-color:white;
+	text-align:center;
+	height:40%;
+	width:100%;
+	margin-top:0;
+	padding:0;
+	display:inline-block;
+}
