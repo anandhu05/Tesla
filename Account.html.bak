@@ -47,7 +47,6 @@ color:grey;
 </style>
 <body style="font-family:sans-serif;">
 
-<img src="logo1.png">
 <form>
 <h1>Sign in</h1>
 

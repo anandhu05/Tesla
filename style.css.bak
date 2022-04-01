@@ -116,6 +116,6 @@ a
 
 a:hover
 {
-	background-size:rgb(187, 189, 191);
+	background-color:rgb(187, 189, 191);
 	
 }

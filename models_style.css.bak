@@ -4,10 +4,21 @@ text-align:center;
 
 }
 
+a 
+{
+	text-decoration:none;
+	color:black;
+}
+
+a:hover
+{
+	background-color:rgb(187, 189, 191);
+	
+}
 
 #models
 {
-	margin-top:70;
+	
 	background-image:url("models.png");
 	background-repeat:no-repeat;
 	background-size:100% 100% ;
@@ -87,7 +98,7 @@ body
 	color:black;
 	border-radius:20px;
 	height:45;
-	width:130;
+	width:190;
 	background-color:transparent;
 	font-weight:bold;
 	border:3px solid black;

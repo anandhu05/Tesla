@@ -18,8 +18,22 @@ document.getElementById("box1").border="10px";
 
 
 <div id ="models">
+<img src="logo1.png">
+<br><br>
+<h4 style="margin-top:1px;margin-left:650;word-spacing:10px;" >
+ <a href="models.html">Model-S </a>
+ <a href="home.html">Model-3 </a>
+ <a href="home.html">Model-X </a>
+ <a href="home.html">Model-Y  </a>
+<a href="home.html"> Solar-Roof </a>
+<a href="home.html">Solar-Panels</a>        &nbsp&nbsp&nbsp&nbsp&nbsp 
+<a href="home.html">Shop </a>
+<a href="home.html">Account </a>
+<a href="home.html">Menu</a>
 
-<h1 > model S </h1>
+</h4>
+
+<h1 style="margin-left:150"> model S </h1>
 
 <div id="basic">
 
@@ -269,7 +283,7 @@ assisting with the most burdensome parts of driving. With<br> over-the-air softw
 <br><br><br>
 <h2>Features</h2>
 <h4>Full Self-Driving capability introduces additional features and improves existing functionality to make your <br>car more capable over time including:</h4>
-<video src="A7I6LP_lane_change_0.mp4-2000_PYSUF4.mp4" width=100% height=70% controls autoplay loop>
+<video src="A7I6LP_lane_change_0.mp4-2000_PYSUF4.mp4" width=90% height=60% controls autoplay loop>
 </div>
 <div>
 <img src="models_specs.png" height=100% width=100%>
@@ -288,7 +302,7 @@ assisting with the most burdensome parts of driving. With<br> over-the-air softw
 <button id="btn1">Compare</button>
 
 </div>
-<div style="margin-top:100;position:absolute;left:290;"> 
+<div style="margin-top:140;position:absolute;left:290;"> 
 <img src="MS-Order-Hero-Desktop.jfif" height=420 width=810 style="margin-left:400">
 </div>
 </div>

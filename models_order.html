@@ -1,0 +1,286 @@
+<html>
+<body>
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+
+
+img {
+  vertical-align: middle;
+}
+
+
+.container {
+  position: relative;
+}
+
+
+
+
+
+
+.prev,
+.next {
+  
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: grey;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.btn
+{
+    color:black;
+	border-radius:20px;
+	height:45;
+	width:130;
+	background-color:transparent;
+	font-weight:bold;
+	border:3px solid black;
+	
+}
+
+.btn:hover
+{
+	background-color:black;
+	color:white;
+	border:3px solid white;
+}
+</style>
+
+<a href="tesla.html"><img src="logo.png" width=80 height=100></a>
+
+<div>
+
+
+<div style="height:700;width:60%;float:left;">
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="screen-shot-2021-08-04-at-11-41-04-am-1628091684.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="Tesla-Model-S-22-Zoll-ADV.1-ADV10-Tuning-10.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="refreshed-tesla-model-x.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="models@2.jpeg" style="width:100%">
+  </div>
+
+<div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="2014_tesla_model_s_angularrear.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="e47821f3971fe83488f2072d28276a89.jpg" style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div> 
+    
+  </div>
+</div>
+
+<div style="height:700;width:40%;float:right;text-align:center">
+<div style="background-color:rgb(242, 240, 233);height:40;width:240;margin-left:190;"><h5>$750 Clean Fuel Reward is now <br>available for California residents.</h5></div>
+<h1>Model S</h1>
+<h5>Est. Delivery: Jul - Sep 2022</h5>
+
+<table style="margin-left:190;text-align:left">
+<tr>
+<td><button class="btn" onclick="models()">model s</button></td>
+<td><button  class="btn" onclick="modelp()">Model s Plaid</button></td>
+</tr>
+<br>
+<tr>
+<td><h2 id="s1"></h2></td>
+<td><h2 id="s2"></h2></td>
+<td><h2 id="s3"></h2></td>
+</tr>
+<tr>
+<td><h5 id="sp1"></h5></td>
+<td><h5 id="sp2"></h5></td>
+<td><h5 id="sp3"></h5></td>
+</tr>
+<tr>
+<td><br></td>
+</tr>
+<tr>
+<td><h2 id="price"></h2></td>
+
+</tr>
+<tr>
+<td id="but"></td>
+</table>
+
+</div>
+</div>
+
+
+</div>
+
+<script>
+
+function models()
+{
+
+document.getElementById("s1").innerHTML="375mi";
+document.getElementById("s2").innerHTML="155mph";
+document.getElementById("s3").innerHTML="3.1sec";
+
+document.getElementById("sp1").innerHTML="Range (est.)";
+document.getElementById("sp2").innerHTML="Top Speed";
+document.getElementById("sp3").innerHTML="0-60 mph";
+
+document.getElementById("price").innerHTML="Price : $93,740";
+document.getElementById("but").innerHTML="<button class='btn' onclick='ordernow()'>Order now</button>";
+}
+
+
+function modelp()
+{
+
+document.getElementById("s1").innerHTML="348mi";
+document.getElementById("s2").innerHTML="200mph";
+document.getElementById("s3").innerHTML="1.99sec";
+
+document.getElementById("sp1").innerHTML="Range (est.)";
+document.getElementById("sp2").innerHTML="Top Speed";
+document.getElementById("sp3").innerHTML="0-60 mph";
+
+document.getElementById("price").innerHTML="Price : $129,740";
+document.getElementById("but").innerHTML="<button class='btn' onclick='ordernow()'>Order now</button>";
+}
+
+
+
+
+function ordernow() {
+  var myWindow = window.open("", "MsgWindow", "top=200,left=500,width=400,height=500");
+  
+  myWindow.document.write("<h1>Model S</h1>");
+  myWindow.document.write("<br><form style='tab-size:4'>");
+  
+  myWindow.document.write("<br><br><label style='text-align:right'>Name :</label><input type='text'>");
+  myWindow.document.write("<br><br><label style='text-align:right'>Email-Id : </label><input type='text'>");
+  myWindow.document.write("<br><br><label style='text-align:right'>phone Number  : </label><input type='text'>");
+  myWindow.document.write("<br><input type='button' value='Book Now'>");
+   myWindow.document.write("</form>");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += "active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    
+	
+	
+</body>
+</html>

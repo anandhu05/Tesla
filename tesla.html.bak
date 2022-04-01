@@ -12,7 +12,7 @@
 <div id="menu">
 <img src="logo1.png">
  <h4 style="margin-top:1px;margin-left:650;word-spacing:10px;position:fixed" >
- <a href="home.html">Model-S </a>
+ <a href="models.html">Model-S </a>
  <a href="home.html">Model-3 </a>
  <a href="home.html">Model-X </a>
  <a href="home.html">Model-Y  </a>
@@ -30,8 +30,8 @@
 <div id="models">
 
 
-<h1 style="position:absolute;left:170;top:55">Model S</h1><br><br>
-<h5 style="position:absolute;left:170;top:85">Order Online for Touchless Delivery</h5>
+<h1 style="position:absolute;left:190;top:65">Model S</h1><br><br>
+<h5 style="position:absolute;left:170;top:95">Order Online for Touchless Delivery</h5>
 </div>
 
 <div id="model3">

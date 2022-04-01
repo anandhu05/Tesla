@@ -1,38 +1,11 @@
 <html>
 <head>
-<script>
 
-function slide(a,n)
-{
-	document.getElementsByClassName("div_label")[n].value=a;
-}
-
-function slideout(a,n)
-{
-	document.getElementsByClassName("div_label")[n].value=a;
-}
-
-function bgcolor(c,bn)
-{
-var pb=bn-1;
-if(bn>pb)
-{
-document.getElementsByClassName("slide_btn")[bn].style.background=c;
-document.getElementsByClassName("slide_btn")[pb].style.background="transparent";
-}	
-else
-{
-pb=bn+1;
-document.getElementsByClassName("slide_btn")[bn].style.background="transparent";
-document.getElementsByClassName("slide_btn")[pb].style.background=c;
-}
-}
-</script>
 </head>
 
 <body>
 <link rel="stylesheet" href="model3_style.css">
-
+<script src="model3_js.js"></script>
 <div id="model3">
 <br><br><br><br>
 
@@ -57,7 +30,7 @@ document.getElementsByClassName("slide_btn")[pb].style.background=c;
 <th><h1> 358 mi</h1> </th>
 <th><h1>AWD</h1> </th>
 
-<th rowspan="2"><button id="btn">Order Now</button></th>
+<th rowspan="2"><button class="btn">Order Now</button></th>
 </tr>
 
 <tr class="first">
@@ -89,7 +62,7 @@ document.getElementsByClassName("slide_btn")[pb].style.background=c;
 <h4>Model 3 received the IIHS Top Safety Pick+ <br>award, with top ratings in all crashworthiness <br>and front crash prevention categories.</h4>
 
 <br><br><br>
-<button id="plus_btn">+</button><label>Learn More </label>&nbsp&nbsp<button id="btn1">Order Now</button>
+<button class="plus_btn">+</button><label>Learn More </label>&nbsp&nbsp<button class="btn1">Order Now</button>
 </div>
 </div>
 
@@ -117,7 +90,7 @@ document.getElementsByClassName("slide_btn")[pb].style.background=c;
 <h3>Performance</h3>
 <h1>Quickest Acceleration</h1>
 <br>
-<button id="plus_btn">+</button><label>Learn More </label>&nbsp&nbsp<button id="btn1">Order Now</button>
+<button class="plus_btn">+</button><label>Learn More </label>&nbsp&nbsp<button class="btn1">Order Now</button>
 </div>
 
 <div id="performance2">
@@ -150,7 +123,7 @@ total control in all weather conditions. A carbon fiber spoiler<br> improves sta
 <h3>Performance</h3>
 <h1>Quickest Acceleration</h1>
 <br>
-<button id="plus_btn">+</button><label>Learn More </label>&nbsp&nbsp<button id="btn1">Order Now</button>
+<button class="plus_btn">+</button><label>Learn More </label>&nbsp&nbsp<button class="btn1">Order Now</button>
 </div>
 
 <div id="drive2">
@@ -172,10 +145,10 @@ Model 3 is fully electric, so you never need to<br> visit a gas station again. I
  you can wake up to a full<br> battery every morning. And when you’re on <br>the road, it’s easy to plug in along the 
  way—<br>at any public station or with the Tesla<br> charging network. 
 We currently have over<br> 30,000 Superchargers worldwide, with six <br>new locations opening every week.<p>
-<img src="model-3-range-map.png" height=370 width=330 style="padding:20">
+<img src="model-3-range-map.png" height=370 width=300 style="padding:20">
 <br>
 <br>
-<button id="plus_btn">+</button><label>Learn More </label>&nbsp&nbsp<button id="btn1">Order Now</button>
+<button class="plus_btn">+</button><label>Learn More </label>&nbsp&nbsp<button class="btn1">Order Now</button>
 </div>
 
 <div id="sensor">
@@ -185,7 +158,7 @@ We currently have over<br> 30,000 Superchargers worldwide, with six <br>new loca
 <h2>250m</h2>
 <h4>Powerful visual processing at up to 250 meters of range<h4>
 <br><br><br>
-<h4><input type="text" value="12" style="border-radius: 50%;width: 44px;height: 44px;padding: 1px;
+<h4><input type="text" value="12" style="border-radius: 50%;width:44px;height: 44px;padding: 1px;
         background: #fff;
         border: 3px solid #000;
        
@@ -201,7 +174,7 @@ We currently have over<br> 30,000 Superchargers worldwide, with six <br>new loca
 
 <td><h3>Autopilot</h3>
 <h2>Future of Driving</h2>
-<button id="btn1">Order Now</button>
+<button class="btn1">Order Now</button>
 </td>
 
 <td style="text-align:left"><p style="margin-left:300;font-size:16px;font-style:Arial">
@@ -210,9 +183,145 @@ assisting with the most burdensome parts of driving. With<br> over-the-air softw
 </td>
 </tr>
 </table>
+</div>
+
+
+<div id="interior">
+
+<div id="interior1">
+
+<h2>15 inch</h2>
+<h5>A touchscreen display designed to<br> improve over time</h5>
+
+<img src="wifiicon.jpg" height=40 width=35>
+<h5>Over-the-air software updates introduce<br> new features, functionality and <br>performance</h5>
+
+<img src="model3icon.png" height=40 width=70>
+<h5>An expansive Glass Roof provides more<br> headroom and UV protection</h5>
+</div>
+
+<div id="interior2">
+
+<table style="margin-left:180;color:black;">
+<tr>
+
+<td><h3>Interior</h3>
+<h2>Built Around the Driver</h2>
+<button class="plus_btn">+</button><label>Learn More </label>&nbsp&nbsp<button class="btn1">Order Now</button>
+</td>
+
+<td style="text-align:left"><p style="margin-left:300;font-size:16px;font-style:Arial">
+The inside of Model 3 is unlike any other car. You can use your smartphone as a key, and <br>access all driver controls in the central 15-inch touchscreen. 
+The all-glass roof extends <br>from front to back, creating a sense of openness from every seat.</p>
+</td>
+</tr>
+</table>
+</div>
+<br><br>
+ </div>
+ 
+ <div style="display:inline-block;width:100%">
+<div id="spec">
+<img src="model3_spec.png" height=100% width=100%>
+</div>
+<div id="spec1">
+<br><br>
+<h1>Model 3 Specs</h1>
+<input type="button" class="spec_btn" onclick="performance()" value="performance">
+<button class="spec_btn" onclick="long()">Long range AWD</button>
+<br><br>
+<button class="spec_btn" onclick="rear()">Rear-wheel Drive</button>
+<button class="spec_btn" onclick="compare()">Compare</button>
+<br><br>
+
+<table id="spec_table">
+<tr>
+<th class="tdstyle">Battery</th>
+<th class="tdstyle">Weight</th>
+</tr>
+<tr>
+<td style="border:5px solid black;text-align:top;" class="tdstyle" id="bat"></td>
+<td style="border:5px solid black;text-align:top;" class="tdstyle" id="wie"></td>
+</tr>
+
+<tr>
+
+<th class="tdstyle">wheels</th>
+<th class="tdstyle">Cargo</th>
+</tr>
+<tr>
+<td style="border:5px solid black;text-align:top;" class="tdstyle" id="wh"></td>
+<td style="border:5px solid black;text-align:top;" class="tdstyle" id="car"></td>
+</tr>
+
+<tr>
+<th class="tdstyle">Range</th>
+<th class="tdstyle">Displays</th>
+</tr>
+<tr>
+<td style="border:5px solid black;text-align:top;" class="tdstyle" id="ran"></td>
+<td style="border:5px solid black;text-align:top;" class="tdstyle" id="dis"></td>
+</tr>
+
+<tr>
+<th class="tdstyle">Drive</th>
+<th class="tdstyle">Supercharging Max/ Payment Type</th>
+</tr>
+<tr>
+<td style="border:5px solid black;text-align:top;" class="tdstyle" id="dr"></td>
+<td style="border:5px solid black;text-align:top;" class="tdstyle" id="sp"></td>
+</tr>
+
+<tr>
+<th class="tdstyle">Seating</th>
+<th class="tdstyle">Onboard Charger Max</th>
+</tr>
+<tr>
+<td style="border:5px solid black;text-align:top;" class="tdstyle" id="st"></td>
+<td style="border:5px solid black;text-align:top;" class="tdstyle" id="oc"></td>
+</tr>
+
+<tr>
+<th class="tdstyle">Acceleration</th>
+<th class="tdstyle">Warranty</th>
+</tr>
+<tr>
+<td style="border:5px solid black;text-align:top;" class="tdstyle" id="acc"></td>
+<td style="border:5px solid black;text-align:top;" class="tdstyle" id="war"></td>
+</tr>
+
+
+</table>
+</div>
+
 
 </div>
 
+<div id="exp">
+
+<div style="margin-left:50;color:white;margin-top:200;float:left;width:40%;text-align:center">
+<h1 >Experience Model 3</h1>
+<button class="btn">Order Now</button>
+<button class="btn">Compare</button>
+</div>
+
+<img src="global-order-hero.png" height=250 width=650 style="margin-top:140">
+</div>
+
+<footer>
+<h5>
+<a href="https://www.tesla.com/about">Tesla©2022</a>
+<a href="https://www.tesla.com/legal"> Privacy&Legal</a>
+<a href="https://www.tesla.com/vin-recall-search"> Vehicle-Recalls</a>
+<a href="https://www.tesla.com/contact"> Contact</a>
+<a href="https://www.tesla.com/careers"> Careers</a>
+<a href="https://www.tesla.com/blog">News</a>
+<a href="https://engage.tesla.com/"> Engage</a>
+<a href="https://www.tesla.com/findus/list"> Locations</a>
+</h5>
+</footer>
 </body>
+
+
 </html>
 

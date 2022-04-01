@@ -8,11 +8,11 @@ body
 {
 	text-align:center;
 	color:white;
-height:110%;
-width:100%;
-background-image:url("lhd-performance-hero-desktop.jfif");
-background-repeat:no-repeat;
-background-size:100% 100%;
+	height:110%;
+	width:100%;
+	background-image:url("lhd-performance-hero-desktop.jfif");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
 
 }
 
@@ -23,7 +23,7 @@ background-size:100% 100%;
 	margin-left:350;
 }
 
-#btn
+.btn
 {
 	color:white;
 	border-radius:20px;
@@ -35,7 +35,7 @@ background-size:100% 100%;
 	
 }
 
-#btn:hover
+.btn:hover
 {
 	background-color:white;
 	color:black;
@@ -81,7 +81,7 @@ background-size:100% 100%;
 	float:left;
 }
 
-#btn1
+.btn1
 {
 	color:black;
 	border-radius:20px;
@@ -93,7 +93,7 @@ background-size:100% 100%;
 	
 }
 
-#plus_btn
+.plus_btn
 {
 	border-radius:100px;
 	height:40;
@@ -104,7 +104,7 @@ background-size:100% 100%;
 	border:3px solid black;
 }
 
-#btn1:hover
+.btn1:hover
 {
 	background-color:black;
 	color:white;
@@ -191,8 +191,6 @@ background-size:100% 100%;
 	
 	height:100%;
 	width:100%;
-	margin-top:0;
-	padding:0;
 	display:inline-block;
 }
 
@@ -202,7 +200,7 @@ background-size:100% 100%;
 	background-size:100% 100%;
 	background-repeat:no-repeat;
 	height:115%;
-	width:76%;
+	width:75%;
 	margin-top:300;
 	
 	
@@ -212,13 +210,14 @@ background-size:100% 100%;
 
 #range2
 {
-	height:100%;
-	width:24%;
-	
+	height:115%;
+	width:25%;
 	margin-top:300;
 	text-align:left;
+	padding:0;
 	
 	float:right;
+	display:inline-block;
 }
 
 
@@ -227,7 +226,7 @@ background-size:100% 100%;
 	background-image:url("model_s.gif");
 	background-repeat:no-repeat;
 	background-size:100% 100%;
-	height:500;
+	height:700;
 	width:100%;
 	margin-top:0;
 	padding:0;
@@ -241,7 +240,141 @@ background-size:100% 100%;
 	text-align:center;
 	height:40%;
 	width:100%;
+	margin-top:100;
+	padding:0;
+	display:inline-block;
+}
+
+
+#interior
+{
+	background-image:url("tesla-model-3-black-and-white-interior.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 70%;
+	height:1150;
+	width:100%;
 	margin-top:0;
 	padding:0;
 	display:inline-block;
+}
+
+
+#interior1
+{
+	
+	text-align:left;
+	height:60%;
+	width:250;
+	margin-top:70;
+	padding:10;
+	color:white;
+	margin-left:75%;
+	font-family:Georgia;
+}
+
+#interior2
+{
+	background-color:white;
+	text-align:center;
+	height:40%;
+	width:100%;
+	margin-top:170;
+	padding:10;
+	
+}
+
+
+
+#spec
+{
+	background-color:black;
+	text-align:center;
+	height:150%;
+	width:50%;
+	margin-top:0;
+	padding:0;
+	float:left;
+	
+}
+
+
+#spec1
+{
+	background-color:black;
+	word-spacing:5;
+	line-height:1;
+	
+	text-align:left;
+	color:white;
+	height:150%;
+	width:50%;
+	margin-top:0;	
+	float:right;
+}
+
+
+.spec_btn
+{
+	color:white;
+	padding:5px;
+	border-radius:20px;
+	height:40;
+	width:250;
+	background-color:transparent;
+	font-weight:bold;
+	border:3px solid white;
+	cursor:pointer;
+	
+}
+
+.spec_btn:hover
+{
+	background-color:red;
+}
+
+#spec_table
+{
+	color:white;
+	
+	height:700;
+	width:500;
+	font-size:17px
+	
+}
+
+
+
+.tdstyle
+{
+	border-top:2px solid white;
+	border-right:30px solid black;
+	text-align:left;
+	
+}
+
+
+#exp
+{
+	width:100%;
+	height:100%;
+	background-color:black;
+	margin-top:0;
+	padding:0;
+	display:inline-block;
+}
+	
+	footer
+	{
+		color:white;
+		margin:0;
+		padding:1;
+		background-color:black;
+		text-align:center;
+		word-spacing:10px;
+	}
+	
+a
+{
+	text-decoration:none;
+	color:white;
 }
