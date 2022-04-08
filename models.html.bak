@@ -22,7 +22,7 @@ document.getElementById("box1").border="10px";
 <br><br>
 <h4 style="margin-top:1px;margin-left:650;word-spacing:10px;" >
  <a href="models.html">Model-S </a>
- <a href="home.html">Model-3 </a>
+ <a href="model3.html">Model-3 </a>
  <a href="home.html">Model-X </a>
  <a href="home.html">Model-Y  </a>
 <a href="home.html"> Solar-Roof </a>
@@ -68,7 +68,7 @@ document.getElementById("box1").border="10px";
 <table style="margin-left:180;margin-top:50;">
 
 <tr>
-<td><img src="MS-Interior-Grid-A-Desktop.jfif" height=380; width=630></td>
+<td><img src="MX-Interior-Grid-A-Desktop.jfif" height=380; width=630></td>
 <td style="text-align:center"><h3 class="mcolor">Stay Connected</h3>
 <p class="mcolor">Instantly connect with multi-device Bluetooth, or fast <br>charge devices with wireless and 36-watt USB-C charging.</p></td>
 

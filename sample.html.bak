@@ -1,0 +1,144 @@
+<html>
+
+<head>
+<link rel="stylesheet" href="style_solar_roof.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){
+$('.selection').click(function(e){
+  const videoSource = $(this).attr('data-src');
+  $('#vide source').attr('src', videoSource);
+  $('#vide')[0].load();
+});
+});
+</script>
+</head>
+
+<body>
+
+
+
+
+<div id="efficiency">
+
+
+<div id="efficiency1">
+<h4 style="padding:10;">Efficiency</h4>
+<h2 style="padding:10;">Maximum Solar <br>Production</h2>
+<p style="padding:10;">Generate the most energy possible, even on<br> roofs with complicated angles and<br> intermittent sunlight. 
+Combined with Tesla<br> Solar Inverter, your fully integrated system is safe,<br> reliable and outage ready. 
+With built-in connectivity, Tesla Solar Inverter <br>will continue to improve with each over-the-air <br>software update.</p>
+
+<br>
+<br>
+<div style="margin-top:82%">
+<button class="btn1">Order Now</button><button class="btn1">Learn more...</button>
+</div>
+</div>
+<div id="efficiency2">
+
+</div>
+</div>
+
+
+
+<div id="control">
+
+<div id="control1">
+<h3>Control</h3>
+<h1>Monitor and Optimize</h1>
+<br>
+<button class="btn1">Order Now</button>
+</div>
+
+<div id="control2">
+<h4>With the Tesla app, you can monitor your energy production in real time. Control your <br>system from anywhere with instant alerts and remote access.</h4>
+</div>
+</div>
+
+
+<div id="value">
+
+
+<div id="value1">
+<h4 style="padding:10;">Value</h4>
+<h2 style="padding:10;">Pay Less for Electricity</h2>
+<p style="padding:10;">
+
+Solar Roof is the only roof that can help pay <br>for itself with the energy you produce. <br>
+Power your home at the lowest price per <br>watt of any national provider and take <br>control of your monthly electricity bill.<p>
+
+<br>
+<br>
+<div style="margin-top:95%">
+<button class="btn1">Order Now</button><button class="btn1">Learn more...</button>
+</div>
+</div>
+<div id="value2">
+
+</div>
+</div>
+<br>
+<div style="margin-top:150;">
+<img src="specs.png" height=100% width=100%>
+</div>
+
+
+<div id="installation">
+
+
+<div id="installation1">
+<h3>Installation</h3>
+<h1>Trusted Expertise</h1>
+<br>
+<button class="btn1">Order Now</button>
+</div>
+
+<div id="installation2"><h4>Our in-house team of energy professionals has installed more than 3.6 GW of 
+clean solar energy across <br>400,000 roofs—the equivalent of 10 million traditional solar panels. 
+From design to power on, we take <br>care of everything. Chat with an energy advisor to ask any questions about Tesla Solar Roof.</h4>
+ 
+</div>
+
+<div id="screen">
+
+<video id="vide" controls autoplay>
+ 
+    <source  type="video/mp4"></source>  
+</video>
+
+<br><br>
+
+<button class="selection" checked  data-src="Carousel_Design.mp4"><h2><b>Design</b></h2><br>Aerial imagery and 3D modeling determine your custom design</button>
+<button class="selection" data-src="Carousel_Installation2.mp4"><h2><b>Design</b></h2><br>Aerial imagery and 3D modeling determine your custom design</button>
+<button class="selection" data-src="WLCRZE_Carousel_PowerOn_V4_IDHKAS.mp4"><h2><b>Design</b></h2><br>Aerial imagery and 3D modeling determine your custom design</button>
+</div>
+</div>
+
+
+
+<div id="order" style="margin-top:900;">
+
+<h2 style="margin-top:200;">Transform Your Roof</h2>
+<h4>Order now or talk to a Tesla Advisor if you have any <br>questions</h4>
+<br>
+<button class="ord_btn">Order Now</button><br><br>
+<button class="ord_btn">CHAT WITH ENERGY ADVISOR</button>
+
+<h6 style="margin-top:30%;word-spacing:5px;">
+
+Tesla©2022
+Privacy&Legal
+Vehicle-Recalls
+Contact
+Careers
+News
+Engage
+Locations</h6>
+
+</div>
+
+</body>
+
+</html>

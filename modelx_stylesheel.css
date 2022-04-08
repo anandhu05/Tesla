@@ -1,3 +1,353 @@
+body
+{
+	margin:0;
+}
+
+#modelx
+{
+	
+	background-image:url("MX-Hero-Desktop.jfif");
+	background-repeat:no-repeat;
+	background-size:100% 100% ;
+	color:white;
+	height:100%;
+	width:100%;
+	margin-top:0;
+	
+}
 
 
-MX-Hero-Desktop.jfif
+#basic
+{
+	line-height:0;
+	margin-top:550;
+	margin-left:350;
+	
+}
+
+.btn
+{
+	color:white;
+	border-radius:20px;
+	height:45;
+	width:170;
+	background-color:transparent;
+	font-weight:bold;
+	border:3px solid white;
+	
+}
+
+.btn:hover
+{
+	background-color:white;
+	color:black;
+}
+
+
+.first
+{
+	
+	
+	text-align:center;
+	color:white;
+	
+}
+
+#subint
+{
+	color:white;
+	height:5%;
+	width:100%;
+	
+	background-color:black;
+	
+	box-shadow:10px 20px 100px black;
+	text-align:center;
+	
+}
+
+#interior
+{
+	
+	background-color:black;
+	background-repeat:no-repeat;
+	background-size:100% 100% ;
+	color:white;
+	height:100%;
+	width:100%;
+	margin-top:0;
+	display:inline-block;
+	
+}
+
+
+#slides
+{
+	
+	background-color:black;
+	background-repeat:no-repeat;
+	background-size:100% 100% ;
+	color:white;
+	height:100%;
+	width:100%;
+	margin-top:0;
+	display:inline-block;
+	
+}
+
+
+.table1
+{
+	
+	background-color:black;
+	
+	color:white;
+	height:160%;
+	width:100%;
+	margin-top:0;
+	display:inline-block;
+	
+}
+
+
+#btn1
+{
+	color:black;
+	border-radius:20px;
+	height:45;
+	width:190;
+	background-color:transparent;
+	font-weight:bold;
+	border:3px solid black;
+	
+}
+
+
+.btn1
+{
+	color:black;
+	border-radius:20px;
+	height:45;
+	width:190;
+	background-color:transparent;
+	font-weight:bold;
+	border:3px solid black;
+	
+}
+
+
+.btn1:hover
+{
+	background-color:black;
+	color:white;
+}
+
+
+
+#plaid
+{
+	
+	
+	background-image:url("MX-Performance-Hero-Desktop.jfif");
+	background-repeat:no-repeat;
+	background-size:100% 80% ;
+	color:white;
+	height:160%;
+	width:100%;
+	margin-top:0;
+	display:inline-block;
+	
+}
+
+
+#electric
+{
+	background-color:rgb(232, 230, 230);
+	text-align:center;
+	height:110%;
+	width:100%;
+	margin-top:0;
+	padding:0;
+	display:inline-block;
+	
+	
+}
+
+
+#utility
+{
+	height:100%;
+	width:100%;
+	margin-top:0;
+	padding:0;
+	display:inline-block;
+}
+
+
+#utility1
+{
+	height:100%;
+	width:25%;
+	float:left;
+	text-align:center;
+}
+
+
+#utility2
+{
+	height:100%;
+	width:75%;
+	float:right;
+}
+
+#exterior
+{
+	background-image:url("MX-Exterior-Hero-Desktop.jfif");
+	background-repeat:no-repeat;
+	background-size:100% 100% ;
+	height:100%;
+	width:100%;
+	margin-top:0;
+	padding:0;
+	display:inline-block;
+}
+#exterior1
+{
+	height:30%;
+	width:40%;
+	margin-top:170;
+	margin-left:10%;
+	
+	float:left;
+	
+}
+
+#exterior2
+{
+	height:30%;
+	width:50%;
+	
+	margin-top:210;
+	text-align:left;
+	
+	float:right;
+}
+
+
+#range
+{
+	
+	
+	background-image:url("modelx_range.png");
+	background-repeat:no-repeat;
+	background-size:100% 100% ;
+	color:white;
+	height:100%;
+	width:100%;
+	margin-top:0;
+	display:inline-block;
+	
+}
+
+#safety
+{
+	background-color:white;
+	
+	height:90%;
+	width:100%;
+	margin-top:0;
+	padding:0;
+	display:inline-block;
+}
+
+#sensor
+{
+	background-image:url("model_s.gif");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	height:500;
+	width:100%;
+	margin-top:0;
+	padding:0;
+	display:inline-block;
+}
+
+#auto
+{
+	background-color:white;
+	text-align:center;
+	height:130%;
+	width:100%;
+	margin-top:0;
+	padding:0;
+	display:inline-block;
+}
+
+
+
+#spec
+{
+	background-color:black;
+	text-align:center;
+	height:150%;
+	width:50%;
+	margin-top:0;
+	padding:0;
+	float:left;
+	
+}
+
+
+#spec1
+{
+	background-color:black;
+	word-spacing:5;
+	line-height:1;
+	
+	text-align:left;
+	color:white;
+	height:150%;
+	width:50%;
+	margin-top:0;	
+	float:right;
+}
+
+
+.spec_btn
+{
+	color:white;
+	padding:5px;
+	border-radius:20px;
+	height:40;
+	width:250;
+	background-color:transparent;
+	font-weight:bold;
+	border:3px solid white;
+	cursor:pointer;
+	
+}
+
+.spec_btn:hover
+{
+	background-color:red;
+}
+
+#spec_table
+{
+	color:white;
+	
+	height:700;
+	width:500;
+	font-size:17px
+	
+}
+
+
+
+.tdstyle
+{
+	border-top:2px solid white;
+	border-right:30px solid black;
+	text-align:left;
+	
+}

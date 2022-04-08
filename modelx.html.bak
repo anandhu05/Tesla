@@ -1,0 +1,374 @@
+<html>
+<body>
+<script src="modelx_func.js"></script>
+<link rel="stylesheet" href="modelx_stylesheel.css">
+
+<div id="modelx">
+<hi>Model X</h1>
+
+
+
+<div id="basic">
+
+<table style="width:70%">
+<tr class="first">
+<th><h1>333 mi</h1></th>
+<th><h1>2.5s</h1> </th>
+<th><h1>9.9s</h1> </th>
+<th><h1>1,020hp</h1> </th>
+
+
+<th rowspan="2"><button class="btn">Order Now</button></th>
+</tr>
+
+<tr class="first">
+<td>Range (EPA est.)</td>
+<td>  0-60 mph* </td>
+<td>1/4 Mile</td>
+<td>Peak Power</td>
+
+</tr>
+</table>
+
+</div>
+</div>
+
+
+
+
+<div id="interior">
+<div id="subint">
+<h1>All-New Interior</h1>
+</div>
+<img src="maxresdefault.jpg" height=100% width=100%>
+
+</div>
+
+
+<div id="slides">
+
+<h1>Space for slides</h1>
+
+</div>
+
+
+<div class="table1">
+
+<table style="margin-left:180;color:white;">
+
+<tr>
+<td><img src="MS-Interior-Grid-A-Desktop.jfif" height=380; width=630></td>
+
+
+<td style="text-align:center"><h3 class="mcolor">Wireless Gaming</h3>
+<p class="mcolor">Up to 10 teraflops of processing power enables in-car <br>
+gaming on-par with today’s newest consoles. Wireless <br>controller compatibility lets you game from any seat.</p></td>
+
+</tr>
+
+<tr>
+<td style="text-align:center"><h3 class="mcolor">Stay Connected</h3>
+<p class="mcolor">Multi-device Bluetooth, wireless and USB-C charging for<br> every passenger, with enough power to fast-charge your <br>tablets and laptop.</p></td>
+
+<td><img src="MX-Interior-Grid-B-Desktop-LHD.jfif" height=380; width=630></td>
+</tr>
+
+<tr>
+<td><img src="MX-Interior-Grid-C-Desktop.jfif" height=380; width=630></td>
+<td style="text-align:center"><h3 class="mcolor">Your Best Audio System</h3>
+<p class="mcolor">A 22-speaker, 960-watt audio system with Active Road <br>Noise Reduction offers the best listening experience<br> wherever you are.<p>
+</tr>
+</table>
+
+</div>
+
+
+<div id="plaid">
+
+
+
+<table style="margin-left:180;margin-top:65%">
+<tr>
+<td><h4>Plaid</h4>
+<h2>Beyond Ludicrous</h2>
+<button id="btn1">Order Now</button>
+</td>
+
+<td style="text-align:left"><p style="margin-left:380;">With the most power and quickest acceleration of any SUV, Model X Plaid is the highest <br>performing SUV ever built.
+ All Model X powertrains, with updated battery architecture, can<br> deliver instant torque at any speed.</p>
+</td>
+</tr>
+</table>
+
+</div>
+
+
+<div id="electric">
+
+
+<h2>Electric Powertrain<h2>
+<h4 style="font-weight:normal;font-size:16px">Model S platforms unite powertrain and battery technologies for unrivaled performance, range and<br> efficiency. 
+New module and pack thermal architecture allows faster charging and gives you more power <br>and endurance in all conditions.</h4>
+
+<img src="Model-S-Performance-Tri-Motor-Desktop.jfif" width=900 height=450>
+<br>
+<br>
+<br>
+<div style="position:absolute;left:290;" id="box1" onmouseover="lines()">
+<table style="margin-left:60px;text-align:left">
+<tr><td><b>Model S</b></td></tr>
+<tr></tr>
+<tr><td>Dual Motor All-Wheel Drive unlocks more range than<br> any other vehicle in our current lineup, with insane <br>power and maximum control.</td></tr>
+</table>
+<br>
+<table style="margin-left:10px;text-align:left;border-collapse: separate; border-spacing: 50px 0;">
+<tr style="font-size:25px;font-weight:bold">
+<td>1.99 s* </td><td> 396 mi </td><td>1020 hp</td>
+</tr>
+<tr>
+<td>0-60 mph</td><td>Range (EPA est.)</td><td>Peak Power</td>
+</tr>
+</table>
+</div>
+<br>
+
+<div style="position:absolute;left:800;" id="box2">
+<table style="margin-left:60px;text-align:left">
+<tr><td><b>Model S Plaid</b></td></tr>
+<tr></tr>
+<tr><td>
+Maintain 1,000+ horsepower all the way to 200 mph <br>with Tri-Motor All-Wheel Drive, featuring torque<br> vectoring and three independent carbon-sleeved rotors.</td></tr>
+</table>
+<br>
+<table style="margin-left:10px;text-align:left;border-collapse: separate; border-spacing: 50px 0;">
+<tr style="font-size:25px;font-weight:bold">
+<td>3.1 </td><td> 405 mi </td><td>670 hp</td>
+</tr>
+<tr>
+<td>0-60 mph</td><td>Range (EPA est.)</td><td>Peak Power</td>
+</tr>
+</table>
+</div>
+</div>
+
+<div id="utility">
+<div id="utility1">
+<h4>Utility</h4>
+<h1>Even More Capable</h1>
+<p style="text-align:left;margin-left:40;">With the most storage space and towing <br>capacity of any electric SUV, and seating for <br>up to seven adults, Model X delivers<br> maximum utility. 
+Front doors open and<br> close automatically, 
+Falcon Wing doors<br> allow for easier loading and a standard<br> trailer hitch lets you bring your gear<br> anywhere you go.
+</div>
+
+<div id="utility2">
+<img src="MX-Utility-Hero-Desktop.jfif" width=100% height=100%>
+</div>
+</div>
+
+
+<div id="exterior">
+
+<table style="width:70%;margin-left:200;margin-top:500">
+<tr class="first">
+
+<th> </th>
+<th></th>
+<th><sub><h2>0.24</h2><sub>C<sub>D</sub></sub> </sub></th>
+
+</tr>
+
+<tr class="first">
+<td>New wheels and improved handling </td>
+<td> </td>
+<td> Lowest-drag SUV on Earth</td>
+<td>Refined exterior styling</td>
+
+</tr>
+</table>
+
+<div id="exterior1">
+<h3>Exterior</h3>
+<h1>Designed for Efficiency</h1>
+<br>
+<button class="btn1">Order Now</button>
+</div>
+
+<div id="exterior2">
+<h4>With the lowest drag coefficient of any SUV, Model X is built for speed and range. <br>
+Refined aerodynamic elements work together with new wheels and tires to help you travel farther, <br>
+with sharper handling and better ride comfort.</h4>
+</div>
+</div>
+
+
+
+<div class="table1">
+
+<table style="margin-left:180;color:white;">
+
+<tr>
+<td style="text-align:center"><h3 class="mcolor">New Wheels and Tires</h3>
+<p class="mcolor">New performance tires deliver better handling and ride<br> quality with lower rolling 
+resistance and are paired with <br>new aerodynamic wheels for an updated look. </p></td>
+
+<td><img src="MX-Exterior-Grid-B-Desktop.jfif" height=380; width=630></td>
+
+
+
+
+</tr>
+
+<tr>
+<td><img src="MX-Exterior-Grid-A-Desktop.jfif" height=380; width=630></td>
+
+<td style="text-align:center"><h3 class="mcolor">Optimized Aerodynamics</h3>
+<p class="mcolor">Attention to detail on all exterior surfaces makes Model X <br>the most aerodynamic production SUV on Earth.</p></td>
+</tr>
+
+<tr>
+<td style="text-align:center"><h3 class="mcolor">Refined Styling</h3>
+<p class="mcolor">Exterior design combines an iconic look with elegant proportions.<p>
+
+<td><img src="MX-Exterior-Grid-C-Desktop.jfif" height=380; width=630></td>
+
+</tr>
+</table>
+
+</div>
+
+<div id="range">
+<button class="btn1" style="margin-top:650;margin-left:1220">Order Now</button>
+</div>
+
+
+<div id="safety">
+
+<div style="position:absolute;left:200;"> 
+<h3>Safety</h3>
+
+<h2>Built for Safety </h2>
+<p>Model X is built from the ground up as an <br>electric vehicle, with a high-strength<br> architecture and floor-mounted battery <br>pack for 
+incredible occupant protection and<br> low rollover risk. 
+Every Model X includes<br> Tesla’s latest active safety features, such as <br>Automatic Emergency Braking, at no extra <br>cost.</p>
+
+</div>
+<div style="margin-top:10;position:absolute;left:250;"> 
+<img src="safety.png" height=500 width=700 style="margin-left:400">
+</div>
+</div>
+<div id="sensor">
+<h2>360°</h2>
+<h4>Rear, side and forward-facing cameras provide maximum visibility</h4>
+<br><br><br>
+<h2>250m</h2>
+<h4>Powerful visual processing at up to 250 meters of range<h4>
+<br><br><br>
+<h4><input type="text" value="12" style="border-radius: 50%;width: 44px;height: 44px;padding: 1px;
+        background: #fff;
+        border: 3px solid #000;
+       
+        text-align: center;
+        font: 32px Arial, sans-serif;">Ultrasonic Sensors</h4>
+
+<h4>Detects nearby cars, helps prevent potential collisions and assists with parking</h4>
+</div>
+
+<div id="auto">
+
+<table style="margin-left:180;color:black;">
+<tr>
+
+<td><h4>Autopilot</h4>
+<h2>Future of Driving</h2>
+<button id="btn1">Order Now</button>
+</td>
+
+<td style="text-align:left"><p style="margin-left:300;font-size:16px;font-style:Arial">
+Autopilot enables your car to steer, accelerate and brake automatically within its lane<br> under your active supervision, 
+assisting with the most burdensome parts of driving. With<br> over-the-air software updates, the latest enhancements are available instantly.</p>
+</td>
+</tr>
+</table>
+<br><br><br>
+<h2>Features</h2>
+<h4>Full Self-Driving capability introduces additional features and improves existing functionality to make your <br>car more capable over time including:</h4>
+<video src="0GSNWC_Model_S_Navigate_0.mp4-2000_OY92ST.mp4" width=90% height=60% controls autoplay loop>
+</div>
+
+<div style="display:inline-block;width:100%">
+<div id="spec">
+<img src="model3_spec.png" height=80% width=100%>
+</div>
+<div id="spec1">
+<br><br>
+<h1>Model X Specs</h1>
+<input type="button" class="spec_btn" onclick="plaid()" value="Model X Plaid">
+<button class="spec_btn" onclick="modelx()">Model x</button>
+
+<br><br>
+
+<table id="spec_table">
+<tr>
+<th class="tdstyle">Range</th>
+<th class="tdstyle">Accelaration</th>
+</tr>
+<tr>
+<td style="border:5px solid black;text-align:top;" class="tdstyle" id="range1"></td>
+<td style="border:5px solid black;text-align:top;" class="tdstyle" id="acc"></td>
+</tr>
+
+<tr>
+
+<th class="tdstyle">1/4miles</th>
+<th class="tdstyle">Top Speed</th>
+</tr>
+<tr>
+<td style="border:5px solid black;text-align:top;" class="tdstyle" id="mile"></td>
+<td style="border:5px solid black;text-align:top;" class="tdstyle" id="top"></td>
+</tr>
+
+<tr>
+<th class="tdstyle">Peak Power</th>
+<th class="tdstyle">Drag Coefficient</th>
+</tr>
+<tr>
+<td style="border:5px solid black;text-align:top;" class="tdstyle" id="peak"></td>
+<td style="border:5px solid black;text-align:top;" class="tdstyle" id="drag"></td>
+</tr>
+
+<tr>
+<th class="tdstyle">Wheels</th>
+<th class="tdstyle">Weight</th>
+</tr>
+<tr>
+<td style="border:5px solid black;text-align:top;" class="tdstyle" id="wheel"></td>
+<td style="border:5px solid black;text-align:top;" class="tdstyle" id="weight"></td>
+</tr>
+
+<tr>
+<th class="tdstyle">Towing</th>
+<th class="tdstyle">Powertrain</th>
+</tr>
+<tr>
+<td style="border:5px solid black;text-align:top;" class="tdstyle" id="tow"></td>
+<td style="border:5px solid black;text-align:top;" class="tdstyle" id="pow"></td>
+</tr>
+
+<tr>
+<th class="tdstyle">seating</th>
+<th class="tdstyle">Supercharging Max</th>
+</tr>
+<tr>
+<td style="border:5px solid black;text-align:top;" class="tdstyle" id="seat"></td>
+<td style="border:5px solid black;text-align:top;" class="tdstyle" id="smax"></td>
+</tr>
+
+
+</table>
+</div>
+
+
+</div>
+
+</body>
+</html>

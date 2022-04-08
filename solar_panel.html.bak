@@ -1,0 +1,42 @@
+<html>
+
+<head>
+<link rel="stylesheet" href="style_solar_panel.css">
+</head>
+<body>
+
+<div id="roof">
+
+
+<h1 style="position:absolute;top:18%;left:45%">Solar for Existing Roofs</h1>
+<br>
+<h4 style="position:absolute;top:22%;left:40%">Lowest Cost Solar Panels in America—Money-back guarantee</h4>
+
+
+
+
+<table id="solar_roof">
+<tr class="first">
+<th><img src="solar_symbol.png"></th>
+<th><h2>25-Year</h2> </th>
+<th><h2>24/7</h2> </th>
+
+
+
+<th rowspan="2"><button class="btn">Order Now</button></th>
+</tr>
+
+<tr class="first">
+<td>Beautiful Solar <br>Without Compromise</td>
+<td> Tile <br>Warranty </td>
+<td>Outage<br>Protection</td>
+
+
+</tr>
+</table>
+
+</div>
+
+
+</body>
+</html>

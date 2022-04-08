@@ -1,0 +1,215 @@
+<html>
+<head>
+<link rel="stylesheet" href="style_solar_roof.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+<div id="roof">
+<h1 style="position:absolute;top:18%;left:45%">Solar Roof</h1>
+<br>
+<h4 style="position:absolute;top:22%;left:40%">Transform your roof and produce clean energy</h4>
+
+
+
+
+<table id="solar_roof">
+<tr class="first">
+<th><img src="solar_symbol.png"></th>
+<th><h2>25-Year</h2> </th>
+<th><h2>24/7</h2> </th>
+
+
+
+<th rowspan="2"><button class="btn">Order Now</button></th>
+</tr>
+
+<tr class="first">
+<td>Beautiful Solar <br>Without Compromise</td>
+<td> Tile <br>Warranty </td>
+<td>Outage<br>Protection</td>
+
+
+</tr>
+</table>
+
+</div>
+
+
+
+
+
+<div id="design">
+
+
+
+<div id="design1">
+<h3>Design</h3>
+<h1>A Beautiful Roof</h1>
+<br>
+<button class="btn1">Order Now</button>
+</div>
+
+<div id="design2">
+<h4>Install Solar Roof and power your home with a fully integrated solar and storage system.<br> With a seamless design, 
+each tile looks great up-close or from the street,complementing<br> your home’s natural aesthetic styling. Chat with an
+ energy advisor to ask any questions<br> about going solar with Tesla.</h4>
+</div>
+</div>
+
+
+
+<div id="energy">
+
+
+<div id="energy1">
+<h4 style="padding:10;">Energy Storage</h4>
+<h2 style="padding:10;">Backup Protection</h2>
+<p style="padding:10;">
+Powerwall is a compact home battery that is <br>bundled with every Tesla solar purchase,<br> providing you with 24/7 energy security. 
+It<br> stores the energy you produce with Solar<br> Roof, so you can power your home anytime<br>—at night or during an outage.</p>
+
+<br>
+<br>
+<div style="margin-top:90%">
+<button class="btn1">Order Now</button><button class="btn1">Learn more...</button>
+</div>
+</div>
+<div id="energy2">
+
+</div>
+</div>
+
+
+
+<div id="durability">
+
+
+<div id="durability1">
+
+<video autoplay muted loop id="myVideo">
+  <source src="SR-Durability-Desktop.mp4" type="video/mp4">
+ 
+</video>
+
+</div>
+
+<div id="durability2">
+<h4 style="padding:10;">Durability</h4>
+<h2 style="padding:10;">Built to Last</h2>
+<p style="padding:10;">
+
+Solar Roof tiles are durable, strong and <br>engineered for all-weather protection. With <br>a 25-year warranty, 
+Solar Roof tiles will <br>continue to produce clean energy for your<br> home for decades to come.</p>
+
+<br>
+<button style="margin-top:90%;margin-left:25%" class="btn1">Order Now</button>
+</div>
+</div>
+
+
+
+
+
+<div id="efficiency">
+
+
+<div id="efficiency1">
+<h4 style="padding:10;">Efficiency</h4>
+<h2 style="padding:10;">Maximum Solar <br>Production</h2>
+<p style="padding:10;">Generate the most energy possible, even on<br> roofs with complicated angles and<br> intermittent sunlight. 
+Combined with Tesla<br> Solar Inverter, your fully integrated system is safe,<br> reliable and outage ready. 
+With built-in connectivity, Tesla Solar Inverter <br>will continue to improve with each over-the-air <br>software update.</p>
+
+<br>
+<br>
+<div style="margin-top:82%">
+<button class="btn1">Order Now</button><button class="btn1">Learn more...</button>
+</div>
+</div>
+<div id="efficiency2">
+
+</div>
+</div>
+
+
+
+<div id="control">
+
+<div id="control1">
+<h3>Control</h3>
+<h1>Monitor and Optimize</h1>
+<br>
+<button class="btn1">Order Now</button>
+</div>
+
+<div id="control2">
+<h4>With the Tesla app, you can monitor your energy production in real time. Control your <br>system from anywhere with instant alerts and remote access.</h4>
+</div>
+</div>
+
+
+<div id="value">
+
+
+<div id="value1">
+<h4 style="padding:10;">Value</h4>
+<h2 style="padding:10;">Pay Less for Electricity</h2>
+<p style="padding:10;">
+
+Solar Roof is the only roof that can help pay <br>for itself with the energy you produce. <br>
+Power your home at the lowest price per <br>watt of any national provider and take <br>control of your monthly electricity bill.<p>
+
+<br>
+<br>
+<div style="margin-top:95%">
+<button class="btn1">Order Now</button><button class="btn1">Learn more...</button>
+</div>
+</div>
+<div id="value2">
+
+</div>
+</div>
+<br>
+<div style="margin-top:150;">
+<img src="specs.png" height=100% width=100%>
+</div>
+
+
+<div id="order">
+
+<h2 style="margin-top:200;">Transform Your Roof</h2>
+<h4>Order now or talk to a Tesla Advisor if you have any <br>questions</h4>
+<br>
+<button class="ord_btn">Order Now</button><br><br>
+<button class="ord_btn">CHAT WITH ENERGY ADVISOR</button>
+
+<h6 style="margin-top:30%;word-spacing:5px;">
+
+Tesla©2022
+Privacy&Legal
+Vehicle-Recalls
+Contact
+Careers
+News
+Engage
+Locations</h6>
+
+</div>
+
+</body>
+<script src="jquerym.js"></script>
+<script>
+
+$(document).ready(function(){
+$('.selection').click(function(e){
+  const videoSource = $(this).attr('data-src');
+  $('#vide source').attr('src', videoSource);
+  $('#vide')[0].load();
+});
+});
+</script>
+</html>
+
+
