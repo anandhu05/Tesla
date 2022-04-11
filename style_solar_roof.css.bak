@@ -3,6 +3,63 @@ margin:0;
 font-family: Arial, Helvetica, sans-serif;
 }
 
+
+#menu
+{
+	word-spacing:10px;
+	margin-top:15;
+	
+	height:10;
+	width:100%;
+	display:inline-block;
+	
+	
+}
+
+.nav
+{
+	margin-top:1px;
+	margin-left:400;
+	word-spacing:10px;
+	
+	
+}
+
+.nav1
+{
+	margin-top:1px;
+	margin-left:800;
+	word-spacing:10px;
+	background:grey;
+	
+}
+
+.nav_btn
+{
+	color:white;
+	border:none;
+	background:transparent;
+	font-weight:bold;
+	font-size:17px;
+	cursor:pointer;
+
+}
+
+.nav_btn:hover
+{
+	background-color:rgb(187, 189, 191);
+	border-radius:10px;
+}
+
+a
+{
+	text-decoration:none;
+}
+
+
+
+
+
 #roof
 {
 background:url("sr-storm-desktop.png");
@@ -222,7 +279,7 @@ color:white;
 	width:400px;
 	text-align:left;
 	background:transparent;
-	color:red;
+	
 	cursor:pointer;
 }
 

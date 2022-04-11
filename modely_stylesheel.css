@@ -3,7 +3,63 @@ body
 	margin:0;
 }
 
-#modelx
+
+#menu
+{
+	word-spacing:10px;
+	margin-top:5;
+	
+	height:10;
+	width:100%;
+	display:inline-block;
+	
+	
+}
+
+.nav
+{
+	margin-top:1px;
+	margin-left:400;
+	word-spacing:10px;
+	
+	
+}
+
+.nav1
+{
+	margin-top:1px;
+	margin-left:800;
+	word-spacing:10px;
+	background:grey;
+	
+}
+
+.nav_btn
+{
+	color:white;
+	border:none;
+	background:transparent;
+	font-weight:bold;
+	font-size:17px;
+	cursor:pointer;
+
+}
+
+.nav_btn:hover
+{
+	background-color:rgb(187, 189, 191);
+	border-radius:10px;
+}
+
+a
+{
+	text-decoration:none;
+}
+
+
+
+
+#modely
 {
 	
 	background-image:url("modely_home.png");
@@ -20,7 +76,7 @@ body
 #basic
 {
 	line-height:0;
-	margin-top:550;
+	margin-top:450;
 	margin-left:350;
 	
 }
@@ -182,4 +238,56 @@ body
 	margin-top:100;
 	padding:0;
 	display:inline-block;
+}
+
+
+
+#order
+{
+	background-color:black;
+	
+	height:100%;
+	width:100%;
+	margin-top:0;
+	padding:0;
+	display:inline-block;
+}
+
+
+.shop_btn
+{
+	background-color:white;
+	color:black;
+	border-radius:20px;
+	width:300px;
+	height:40px;
+	text-align:center;
+	font-weight:bold;
+	font-size:15px;
+	cursor:pointer;
+}
+
+
+
+#footer
+{
+	text-align:center;
+	word-spacing:10px;
+	background-color:black;
+	display:inline-block;
+	width:100%;
+	
+}
+
+.ref
+{
+	text-decoration:none;
+	color:white;
+	
+}
+
+.ref:hover
+{
+	background-color:rgb(187, 189, 191);
+	
 }

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Account</title>
+	<style>
+	div
+	{
+		text-align:center;
+	}
+	
+	form
+	{
+		padding:10px;
+		text-align:left;
+		width:400px;
+		margin-left:600px;
+		margin-top:70px
+		
+		
+	}
+	
+	select
+	{
+		
+		padding:10px;
+		width:250px;
+		border-radius:10px;
+		background-color:rgb(250, 241, 237);
+	}
+	input
+	{
+		padding:10px;
+		border-radius:10px;
+		border:1px solid grey;
+		background-color:rgb(250, 241, 237);
+		
+		
+	}
+	
+	label
+	{
+		font-weight:bold;
+	}
+	
+	#btn
+	{
+		width:250px;
+		padding:10px;
+		color:white;
+		font-weight:bold;
+		border-radius:10px;
+		box-shadow:5px 8px 8px grey;
+		background-color:rgb(90, 77, 240);
+	}
+	
+	
+	#si_btn
+	{
+		width:270px;
+		padding:10px;
+		font-weight:bold;
+		margin-left:-20px;
+		border-radius:10px;
+		box-shadow:5px 8px 8px grey;
+		
+	}
+	
+	
+	hr
+	{
+		width:350px;
+		margin-left:580px
+	}
+	</style>	
+</head>
+<body>
+ <a href="tesla.html"><img src="logo1.png"></a>  
+ <div>
+ <form>
+	<h1>create New Account</h1>
+	<br>
+	<label>Country: </label><br>
+	<select width=700>
+	<option>....Select....</option>
+	<option>Australia</option>
+	<option>Brasil</option>
+	<option>India</option>
+	<option>Newziland</option>
+	<option>Taiwan</option>
+	<option>South Africa</option>
+	<option>UAE</option>
+	<option>Zamba</option>
+	</select>
+	<br>
+	<br>
+	<label>First Name : </label><br>
+	<input type="text" size=30><br><br>
+	<label>Last Name : </label><br>
+	<input type="text" size=30><br><br>
+	<label>Email : </label><br>
+	<input id="mail" type="text" size=30><br><br>
+	<label>Password : </label><br>
+	<input id="pwd" type="password" onclick="email_validation()" size="30"><br><br>
+	<label>Confirm Password : </label><br>
+	<input type="password" size=30 onclick="password_validation()">
+	<br><br>
+	<button id="btn">Create Account</button>
+	<br><br><br>
+	
+	
+</form>
+<hr>OR<hr>
+	<br>
+	<a href="Account.html"><button id="si_btn">Sign In</button></a>
+</div>
+</body>
+
+<script>
+var paswd=document.getElementById("pwd").value;
+function email_validation()
+{
+	var email=document.getElementById("mail").value;
+	
+	var flag=1;
+	for(i=0;i<email.length;i++)
+	{
+		if (email[i]=="@" && email.slice(-4)==".com")
+		{
+			flag=0;
+			break;
+		}
+	}
+	
+	if(flag==1)
+	{
+		alert("Invalid Email Id");
+	}
+}
+	
+function password_validation()
+{
+	if(paswd.length<8)
+	{
+		alert("Password length shold contain atleast 8 characters");
+		return false;
+	}
+	
+
+}
+</script>
+</html>

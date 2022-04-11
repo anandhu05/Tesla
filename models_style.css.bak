@@ -1,24 +1,72 @@
+body
+{
+	background:black;
+	margin:0;
+	
+	
+}
 h1
 {
 text-align:center;
 
 }
 
-a 
+#menu
 {
-	text-decoration:none;
-	color:black;
-}
-
-a:hover
-{
-	background-color:rgb(187, 189, 191);
+	word-spacing:10px;
+	margin-top:5;
+	
+	height:10;
+	width:100%;
+	display:inline-block;
+	
 	
 }
+
+.nav
+{
+	margin-top:1px;
+	margin-left:400;
+	word-spacing:10px;
+	
+	
+}
+
+.nav1
+{
+	margin-top:1px;
+	margin-left:800;
+	word-spacing:10px;
+	background:red;
+	
+}
+
+.nav_btn
+{
+	color:black;
+	border:none;
+	background:transparent;
+	font-weight:bold;
+	font-size:17px;
+	cursor:pointer;
+
+}
+
+.nav_btn:hover
+{
+	background-color:rgb(187, 189, 191);
+	border-radius:10px;
+}
+
+a
+{
+	text-decoration:none;
+}
+
 
 #models
 {
-	
+	margin-top:0;
 	background-image:url("models.png");
 	background-repeat:no-repeat;
 	background-size:100% 100% ;
@@ -33,13 +81,7 @@ a:hover
 }
 
 
-body
-{
-	background:black;
-	margin:0;
-	
-	
-}
+
 
 .first
 {
@@ -53,7 +95,7 @@ body
 #basic
 {
 	line-height:0;
-	margin-top:630;
+	margin-top:530;
 	margin-left:300;
 }
 
@@ -66,6 +108,7 @@ body
 	background-color:transparent;
 	font-weight:bold;
 	border:3px solid white;
+	cursor:pointer;
 	
 }
 
@@ -102,6 +145,7 @@ body
 	background-color:transparent;
 	font-weight:bold;
 	border:3px solid black;
+	cursor:pointer;
 	
 }
 
@@ -188,4 +232,28 @@ body
 	margin-top:0;
 	padding:0;
 	display:inline-block;
+}
+
+
+#footer
+{
+	text-align:center;
+	word-spacing:10px;
+	background-color:white;
+	display:inline-block;
+	width:100%;
+	
+}
+
+.ref
+{
+	text-decoration:none;
+	color:black;
+	
+}
+
+.ref:hover
+{
+	background-color:rgb(187, 189, 191);
+	
 }

@@ -1,10 +1,46 @@
 <html>
+<head>
+<link rel="icon" type="image.png" href="logo.png">
+<title>Model Y</title>
+</head>
 <body>
 <script src="modelx_func.js"></script>
 <link rel="stylesheet" href="modely_stylesheel.css">
 
-<div id="modelx">
-<h1>Model Y</h1>
+<div id="modely">
+<img src="logo1.png" style="position:absolute;left:10">
+
+<div id="menu">
+
+
+
+ <h4 class="nav">
+ <a href="models.html"><button class="nav_btn">Model-S</button></a>
+ <a href="model3.html"><button class="nav_btn">Model-3 </button></a>
+ <a href="modelx.html"><button class="nav_btn">Model-X </button></a>
+ <a href="modely.html"><button class="nav_btn">Model-Y</button></a>
+ <a href="solar_roof.html"><button class="nav_btn"> Solar-Roof </button></a>
+ <a href="solar_panel.html"><button class="nav_btn">Solar-Panels </button> </a>
+
+
+
+ 
+
+ <a href="shop.html"><button class="nav_btn">Shop </button></a>
+ <a href="Account.html"><button class="nav_btn">Account </button></a>
+ <a href="#"><button class="nav_btn">Menu</button></a>
+
+</h4>
+</div>
+
+<br>
+<br>
+<br>
+
+
+<h1 style="margin-left:650;margin-top:100"> Model Y </h1>
+
+
 
 
 
@@ -138,7 +174,7 @@ We currently have over<br> 30,000 Superchargers worldwide, with six <br>new loca
 <h4>Detects nearby cars, helps prevent potential collisions and assists with parking</h4>
 
 <div id="auto">
-
+<br><br>
 <table style="margin-left:180;color:black;">
 <tr>
 
@@ -154,3 +190,61 @@ assisting with the most burdensome parts of driving. With<br> over-the-air softw
 </tr>
 </table>
 </div>
+
+<div id="interior">
+
+<img src="modely_interior.png" width=100% height=80%>
+<br>
+<table style="margin-left:180;color:black;">
+<tr>
+
+<td><h3>Interior</h3>
+<h2>Built Around the Driver</h2>
+<button class="btn1">Order Now</button>
+</td>
+
+<td style="text-align:left"><p style="margin-left:300;font-size:16px;font-style:Arial">
+With an elevated seating position and low dash, the driver has a commanding view of the <br>road ahead. 
+The interior of Model Y is simple and clean, with a 15-inch touch screen,<br> immersive sound system and 
+an expansive all-glass roof that creates extra headroom and <br>provides a seamless view of the sky.</p>
+</td>
+</tr>
+</table>
+
+</div>
+
+
+
+<div id="order">
+
+<div style="color:white;position:absolute;left:100;background-color:black;margin-top:200"> 
+<h2>Order Model Y</h2>
+<br>
+<br>
+<button class="shop_btn">Order Now</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<button class="shop_btn">Compare</button>
+
+</div>
+<div style="margin-top:140;position:absolute;left:290;"> 
+<img src="ModelY_Order_Hero.avif" height=290 width=810 style="margin-left:450">
+</div>
+</div>
+
+
+<div id="footer">
+
+<h6>
+<a class="ref" href="#">Tesla©2022</a>
+<a class="ref" href="#">Privacy&Legal</a>
+<a class="ref" href="#">Vehicle-Recalls</a>
+<a class="ref" href="#">Contact</a>
+<a class="ref" href="#">Careers</a>
+<a class="ref" href="#">News</a>
+<a class="ref" href="#">Engage</a>
+<a class="ref" href="#">Locations</a>
+</h6>
+</div>
+
+
+</body>
+</html>

@@ -3,6 +3,66 @@ body
 	margin:0;
 }
 
+#logo
+{
+	position:absolute;
+	left:10;
+}
+
+#menu
+{
+	word-spacing:10px;
+	margin-top:5;
+	
+	height:10;
+	width:100%;
+	display:inline-block;
+	
+	
+}
+
+.nav
+{
+	margin-top:1px;
+	margin-left:400;
+	word-spacing:10px;
+	
+	
+}
+
+.nav1
+{
+	margin-top:1px;
+	margin-left:800;
+	word-spacing:10px;
+	background:grey;
+	
+}
+
+.nav_btn
+{
+	color:black;
+	border:none;
+	background:transparent;
+	font-weight:bold;
+	font-size:17px;
+	cursor:pointer;
+
+}
+
+.nav_btn:hover
+{
+	background-color:rgb(187, 189, 191);
+	border-radius:10px;
+}
+
+a
+{
+	text-decoration:none;
+}
+
+
+
 
 #model3
 {
@@ -19,7 +79,7 @@ body
 #basic
 {
 	line-height:0;
-	margin-top:250;
+	margin-top:450;
 	margin-left:350;
 }
 

@@ -3,6 +3,61 @@ body
 	margin:0;
 }
 
+
+#menu
+{
+	word-spacing:10px;
+	margin-top:5;
+	
+	height:10;
+	width:100%;
+	display:inline-block;
+	
+	
+}
+
+.nav
+{
+	margin-top:1px;
+	margin-left:400;
+	word-spacing:10px;
+	
+	
+}
+
+.nav1
+{
+	margin-top:1px;
+	margin-left:800;
+	word-spacing:10px;
+	background:grey;
+	
+}
+
+.nav_btn
+{
+	color:black;
+	border:none;
+	background:transparent;
+	font-weight:bold;
+	font-size:17px;
+	cursor:pointer;
+
+}
+
+.nav_btn:hover
+{
+	background-color:rgb(187, 189, 191);
+	border-radius:10px;
+}
+
+a
+{
+	text-decoration:none;
+}
+
+
+
 #modelx
 {
 	
@@ -10,7 +65,7 @@ body
 	background-repeat:no-repeat;
 	background-size:100% 100% ;
 	color:white;
-	height:100%;
+	height:110%;
 	width:100%;
 	margin-top:0;
 	
@@ -56,7 +111,7 @@ body
 #subint
 {
 	color:white;
-	height:5%;
+	height:20%;
 	width:100%;
 	
 	background-color:black;
@@ -88,7 +143,7 @@ body
 	background-repeat:no-repeat;
 	background-size:100% 100% ;
 	color:white;
-	height:100%;
+	
 	width:100%;
 	margin-top:0;
 	display:inline-block;
@@ -104,7 +159,7 @@ body
 	color:white;
 	height:160%;
 	width:100%;
-	margin-top:0;
+	margin-top:10;
 	display:inline-block;
 	
 }
@@ -204,8 +259,8 @@ body
 {
 	background-image:url("MX-Exterior-Hero-Desktop.jfif");
 	background-repeat:no-repeat;
-	background-size:100% 100% ;
-	height:100%;
+	background-size:100% 80% ;
+	height:150%;
 	width:100%;
 	margin-top:0;
 	padding:0;
@@ -213,9 +268,9 @@ body
 }
 #exterior1
 {
-	height:30%;
-	width:40%;
-	margin-top:170;
+	height:20%;
+	width:30%;
+	margin-top:350;
 	margin-left:10%;
 	
 	float:left;
@@ -224,10 +279,10 @@ body
 
 #exterior2
 {
-	height:30%;
+	height:20%;
 	width:50%;
 	
-	margin-top:210;
+	margin-top:370;
 	text-align:left;
 	
 	float:right;
@@ -281,4 +336,73 @@ body
 	margin-top:0;
 	padding:0;
 	display:inline-block;
+}
+
+
+
+#spec
+{
+	background-color:black;
+	text-align:center;
+	height:150%;
+	width:50%;
+	margin-top:0;
+	padding:0;
+	float:left;
+	
+}
+
+
+#spec1
+{
+	background-color:black;
+	word-spacing:5;
+	line-height:1;
+	
+	text-align:left;
+	color:white;
+	height:150%;
+	width:50%;
+	margin-top:0;	
+	float:right;
+}
+
+
+.spec_btn
+{
+	color:white;
+	padding:5px;
+	border-radius:20px;
+	height:40;
+	width:250;
+	background-color:transparent;
+	font-weight:bold;
+	border:3px solid white;
+	cursor:pointer;
+	
+}
+
+.spec_btn:hover
+{
+	background-color:grey;
+}
+
+#spec_table
+{
+	color:white;
+	
+	height:700;
+	width:500;
+	font-size:17px
+	
+}
+
+
+
+.tdstyle
+{
+	border-top:2px solid white;
+	border-right:30px solid black;
+	text-align:left;
+	
 }

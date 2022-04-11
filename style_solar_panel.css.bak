@@ -1,1 +1,234 @@
+body{
+margin:0;
+font-family: Arial, Helvetica, sans-serif;
+background-color:black;
+}
+
+
+#menu
+{
+	word-spacing:10px;
+	margin-top:15;
+	
+	height:10;
+	width:100%;
+	display:inline-block;
+	
+	
+}
+
+.nav
+{
+	margin-top:1px;
+	margin-left:400;
+	word-spacing:10px;
+	
+	
+	
+}
+
+.nav1
+{
+	margin-top:1px;
+	margin-left:800;
+	word-spacing:10px;
+	background:grey;
+	
+}
+
+.nav_btn
+{
+	color:black;
+	border:none;
+	background:transparent;
+	font-weight:bold;
+	font-size:17px;
+	cursor:pointer;
+
+}
+
+.nav_btn:hover
+{
+	background-color:rgb(187, 189, 191);
+	border-radius:10px;
+}
+
 a
+{
+	text-decoration:none;
+}
+
+
+
+
+#panel
+{
+background:url("_25-Hero-D.jfif");
+background-repeat:no-repeat;
+background-size:100% 100%;
+text-align:center;
+height:100%;
+width:100%;
+color:black;
+
+}
+
+
+
+#solar_panel
+{
+	color:black;
+	position:absolute;
+	top:80%;
+	left:25%;
+	text-align:center;
+	width:900px;
+	
+}
+
+.btn
+{
+	color:white;
+	border-radius:20px;
+	height:45;
+	width:190;
+	background-color:transparent;
+	font-weight:bold;
+	border:3px solid white;
+	cursor:pointer;
+	
+}
+
+.btn:hover
+{
+	background-color:white;
+	color:black;
+}
+
+
+
+.btn1
+{
+	color:black;
+	border-radius:20px;
+	height:45;
+	width:190;
+	background-color:transparent;
+	font-weight:bold;
+	border:3px solid black;
+	cursor:pointer;
+	
+}
+
+.btn:hover
+{
+	background-color:black;
+	color:white;
+}
+
+
+
+
+
+#save
+{
+	background-color:white;
+	text-align:center;
+	height:110%;
+	width:100%;
+	margin-top:0;
+	padding:0;
+	display:inline-block;
+}
+
+#btn1
+{
+	color:black;
+	border-radius:20px;
+	height:45;
+	width:190;
+	background-color:transparent;
+	font-weight:bold;
+	border:3px solid black;
+	cursor:pointer;
+	
+}
+
+
+
+#efficiency
+{
+	
+	height:100%;
+	width:100%;
+	margin:0;
+	display:inline-block;
+	background-color:white;
+}
+
+
+#efficiency1
+{
+	height:100%;
+	width:25%;
+	margin-top:0;
+	text-align:left;
+	padding:0;
+	overflow:hidden;
+	
+	float:left;
+	display:inline-block;
+}
+
+
+#efficiency2
+{
+	
+	background-image:url("Inverter_V8_D.avif");
+	background-size:100% 100%;
+	height:100%;
+	width:75%;
+	margin-top:0;
+	overflow:hidden;
+	
+	float:right;
+	
+}
+
+
+
+#control
+{
+	background-image:url("SR-tesla-app-D.jfif");
+	background-repeat:no-repeat;
+	background-size:100% 70% ;
+	height:130%;
+	width:100%;
+	margin-top:0;
+	padding:0;
+	display:inline-block;
+	background-color:white;
+}
+
+#control1
+{
+	height:25%;
+	width:20%;
+	margin-top:730;
+	margin-left:10%;
+	overflow:hidden;
+	float:left;
+	background-color:white;
+	
+}
+
+#control2
+{
+	height:30%;
+	width:60%;
+	margin-top:750;
+	
+	text-align:left;
+	
+	float:right;
+}

@@ -1,16 +1,33 @@
 <html>
 
+<head>
+<link rel="stylesheet" href="shop_style.css">
+<link rel="stylesheet" href="style.css">
+</head>
 
 <body>
 
-<link rel="stylesheet" src="shop_style.css">
-
 <div id="menu">
-<img src="logo1.png">
-<h5>shop</h5><h5>Charging</h5><h5>Vehicle Accessories</h5><h5>Apparel</h5><h5>Lifestyle</h5>
+<br>
+ <h4 class="nav">
+ <a href="models.html"><button class="nav_btn">Model-S</button></a>
+ <a href="model3.html"><button class="nav_btn">Model-3 </button></a>
+ <a href="modelx.html"><button class="nav_btn">Model-X </button></a>
+ <a href="modely.html"><button class="nav_btn">Model-Y</button></a>
+ <a href="solar_roof.html"><button class="nav_btn"> Solar-Roof </button></a>
+ <a href="solar_panel.html"><button class="nav_btn">Solar-Panels </button> </a>
+
+
+</h4>
 </div>
+<br>
+<br>
+
+
 
 <div style="height:100%;width:100%;">
+
+
 
 <div class="container">
   <div class="mySlides">
